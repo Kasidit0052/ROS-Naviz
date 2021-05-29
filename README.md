@@ -6,14 +6,14 @@
 
 ### Server :
 
-- ros_server
-  - robot-app
+- **ros_server**
+  - **robot-app**
   - scripts
   - package.json
 
 ### Client :
 
-- robot-app
+- **robot-app**
   - public
   - src
   - package.json
