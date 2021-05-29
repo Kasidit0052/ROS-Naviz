@@ -1,0 +1,4 @@
+<launch>
+  <!-- Run the costmap node -->
+  <node name="virtual_wall_server" pkg="move_base_virtual_wall_server" type="virtual_wall_server"></node>
+</launch>

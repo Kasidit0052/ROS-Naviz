@@ -1,0 +1,16 @@
+max_obstacle_height: 0.60  # assume something like an arm is mounted on top of the robot
+#obstacle_range: 3.0
+#raytrace_range: 3.5
+update_frequency: 3.0
+resolution: 0.15
+
+footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
+#robot_radius: 0.105
+
+inflation_radius: 1.0
+cost_scaling_factor: 3.0
+
+map_type: costmap
+observation_sources: scan virtual_wall
+scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+virtual_wall: {data_type: PointCloud2, topic: /virtual_wall_cloud, marking: true, clearing: true, obstacle_range: 100000, raytrace_range: 100000}

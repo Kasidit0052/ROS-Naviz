@@ -1,0 +1,15 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+
+  update_frequency: 10.0
+  publish_frequency: 10.0
+  transform_tolerance: 0.5
+
+  static_map: true
+  always_send_full_costmap: true
+
+  map_type: costmap
+  observation_sources: virtual_wall
+  virtual_wall: {data_type: PointCloud2, topic: /virtual_wall_cloud, marking: true, clearing: true, obstacle_range: 100000, raytrace_range: 100000}
+ 
