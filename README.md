@@ -128,12 +128,14 @@ rosrun tf2_web_republisher tf2_web_republisher
 ### Server :
 
 ```
+cd ~/catkin_ws/src/ros_server
 yarn server
 ```
 
 ### Client :
 
 ```
+cd ~/catkin_ws/src/ros_server
 yarn client
 ```
 
