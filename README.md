@@ -1,6 +1,9 @@
 # Welcome to ROS Naviz
-
 **Naviz** is our implementation of ROS web-based visualization with full functionality from RVIZ with additional Virtual Wall server 
+
+
+![Alt Text](https://github.com/Kasidit0052/ROS_Naviz/blob/main/ros_result.gif)
+
 
 ## Files structure
 
@@ -139,9 +142,7 @@ cd ~/catkin_ws/src/ros_server
 yarn client
 ```
 
-## Result
 
-![Alt Text](https://github.com/Kasidit0052/ROS_Naviz/blob/main/ros_result.gif)
 
 ## Authors
 
