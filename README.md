@@ -37,7 +37,7 @@
 cd ~/catkin_ws/src/
 ```
 ```
-git clone https://github.com/Kasidit0052/ROS_Naviz.git
+git clone https://github.com/Kasidit0052/ROS-Naviz.git
 ```
 - Install Server
 ```
@@ -131,14 +131,14 @@ rosrun tf2_web_republisher tf2_web_republisher
 ### Server :
 
 ```
-cd ~/catkin_ws/src/ros_server
+cd ~/catkin_ws/src/ROS-Naviz/ros_server
 yarn server
 ```
 
 ### Client :
 
 ```
-cd ~/catkin_ws/src/ros_server
+cd ~/catkin_ws/src/ROS-Naviz/ros_server
 yarn client
 ```
 
