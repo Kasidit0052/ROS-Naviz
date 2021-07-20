@@ -31,7 +31,7 @@
 - launch
   - Virtual_wall.launch
 
-## ROS_Naviz Installation (Requires npm or yarn installed)
+## ROS-Naviz Installation (Requires npm or yarn installed)
 
 ```
 cd ~/catkin_ws/src/
